@@ -10,11 +10,15 @@
  git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
-
-
-  `git config --global --list
+Чтобы проверить список пользователейю, работающих с файлом, используйте команду:
+```
+git config --global --list
+Например:
 user.email=aleksandra.majerus@gmail.com
 user.name=Sasha
+```
+### 4. Инициализация репозитория
+В терминале переходим к папке, в которой хотим создать репозиторий и выполняем команду `git init`.
 "git rm --cached <file>..." to unstage 
 ' git log
 для фиксации изменений :
