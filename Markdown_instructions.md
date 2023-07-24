@@ -4,10 +4,14 @@
 В терминале выполнить команду `git version`. Если Git установлен, появится сообщение о версии программы, иначе сообщение об ошибке.
 ### 2. Установка Git
 Загружаем последнюю версию Git с сайта [Установка Git](https://git-scm.com/downloads). Устанавливаием с настройками по умолчанию.
-### 3. Представьтесь
+### 3. Настройка Git
 При инициализации работы с Git необходимо представиться с помощью комманд: 
- `git config --global user.email "you@example.com"`
-  `git config --global user.name "Your Name"`
+ ```
+ git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+
   `git config --global --list
 user.email=aleksandra.majerus@gmail.com
 user.name=Sasha
